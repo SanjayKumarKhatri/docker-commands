@@ -1,0 +1,80 @@
+                                                          ******* ADVANTAGES OF DOCKER *********
+------------------------------------------------------------------------------------------------------------------------------------
+1) No pre-allocation of RAM
+
+2) CI Efficiency -> docker enables you to build a container image and use that same image across every step of the deployment process
+
+3) Less cost
+
+4) It is light in weight 
+
+5) It can run on physical H/W virtual H/W or on cloud
+
+6) You can re-use the image
+
+7) It took very less time to create container
+-------------------------------------------------------------------------------------------------------------------------------------
+
+						*********** DISADVANTAGES OF DOCKER *************
+
+1) Docker is not a good solution for application that requires rich GUI
+
+2) Difficuilt to manage large amount of containers
+
+3) Docker does not provide Cross-platform Compatibility means if an application is designed to run in a docker Container on windows
+   then it can't run on linux or vice-versa
+
+4) Docker is suitable when the development O.S and testing O.S or some of the O.S is different we should use VM.
+
+5) No solution for data recovery and Backup.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+                                                      ********* BASIC COMMANDS DOCKER ************
+
+To see all images present in your loacl machine
+-> docker images
+
+To find out images in docker hub
+-> docker search [ImageName]
+
+To download image from dockerhub to local machine
+-> docker pull [ImageName]
+
+To give name to container
+-> docker run -it --name [ContainerName] [ImageName] /bin/bash
+
+To check service is start or not
+-> Service docker status
+
+To start container
+-> docker start [ContainerName]
+
+To go inside container
+-> docker attach [ContainerName
+
+To see all container
+-> docker ps -a
+
+To see only running container
+-> docker ps    [Full Form of ps is Process Status]
+
+To stop container
+-> docker stop [ContainerName]
+
+To delete container
+-> docker rm [ContainerName]
+
+To create image of container
+-> docker commit [new container name] [container name]
+
+server connect command
+python3 -m http.server
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+																		
+							 ********** FILE CREATED BY SANJAY KUMAR KHATRI **********
+
+							 
+
+
